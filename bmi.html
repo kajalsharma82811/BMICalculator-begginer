@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BMI Calculator</title>
+	<style>
+		body{
+			background:#87CEEB;
+
+		}
+		.heading{
+			font-size:70px;
+			text-align: center;
+			color: #000080
+		}
+		.weight_name{
+			margin-left:200px;
+			font-size:40px;
+			
+
+		}
+		.height_name{
+			margin-left:800px;
+			font-size:40px;
+			margin-top:-90px; 
+
+		}#weight{
+			margin-left:200px;
+			width:350px;
+			height:40px;
+			font-size:30px;
+			text-align:center;
+			border:2px solid black;
+
+		}
+		#height{
+			margin-left:140px;
+			width:350px;
+			height:40px;
+			font-size:30px;
+			text-align:center;
+			border: 2px solid black;
+			
+
+		}
+		.button{
+			margin-left:580px; 
+			width:200px;
+			background:#C0C0C0;
+			color:#000080;
+			height: 40px;
+			font-size:30px;
+			margin-top:60px;
+		}
+		.result{
+			margin-left:650px; 
+			margin-top:70px;
+			font-size:30px;
+			color: #000080;
+
+
+
+		}
+		.we{
+			margin-left:650px; 
+			margin-top:60px;
+			font-size:30px;
+			color: #000080;
+
+		}
+		
+	</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container2">
+				<div class="heading"><strong>BMI CALCULATOR</strong></div>
+			</div>
+			<FORM>
+				<div class="weight_name">Weight</div>
+				<input type="text" name="weight" id="weight" value="">
+				<select id="myselect">
+				<option class="weight_class" value="pound">pound</option>
+				<option class="weight_class" value="kilogram">kilogram</option>
+				</option>
+				
+			</select>
+
+				<input type="text" name="height" id="height" value="">
+			<select id ="myselect2">
+				<option class="height_class" value="cm">cm</option>
+				<option class="height_class" value="m">m</option>
+				<option class="height_class" value="inches">inches</option>
+
+				
+			</select>
+
+
+
+				<div class="height_name">Height</div>
+			</FORM>
+			<br/><br/>
+			<button class="button">Calculate</button>
+			<div class="result"><strong></strong></div>
+			<div class="we"><strong></strong></div>
+
+		</div>
+	</body>	
+
+<script type="text/javascript" src="js/bmi.js"></script>
+</html>
